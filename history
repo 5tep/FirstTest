@@ -1,0 +1,12 @@
+    1  apt update
+    2  apt install mc
+    3  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    4  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    5  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    6  sudo apt update
+    7  apt-cache policy docker-ce
+    8  sudo apt install docker-ce
+    9  sudo systemctl status docker
+   10  mc
+   11  history
+   12  history > history.hst
