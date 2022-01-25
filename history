@@ -10,3 +10,41 @@
    10  mc
    11  history
    12  history > history.hst
+
+    1  history
+    2  apt-get update && apt-get install dirmngr mc iotop htop telnet tcpdump nmap curl console-cyrillic hexedit sudo zip unzip patch pwgen vim less parted subversion ntp bzip2 lsof strace mutt s-nail ncdu smartmontools tree dnsutils logrotate rsyslog
+    3  dpkg-reconfigure tzdata
+    4  dpkg-reconfigure locales
+    5  /etc/default/locale
+    6  apt-get install git
+    7  touch ~/.gitconfig
+    8  chmod 600 ~/.gitconfig
+    9  nano ~/.gitconfig
+   10  cd
+   11  git init && mv .git config.git
+   12  chmod 700 /root/config.git
+   13  cho "gitdir: /root/config.git" > /.git && chmod 600 /.git
+   14  echo "gitdir: /root/config.git" > /.git && chmod 600 /.git
+   15  git add -A && git commit -m 'РЎРѕР·РґР°РЅРёРµ СЂРµРїРѕР·РёС‚РѕСЂРёСЏ @system'
+   16  crontab -l
+   17  crontab -e
+   18  git log --follow -p /etc/nginx/nginx.conf
+   19  apt update
+   20  apt install nginx
+   21  ls
+   22  nano nginx.conf
+   23  git log --follow -p /etc/nginx/nginx.conf
+   24  nginx -t
+   25  service nginx reload
+   26  service nginx status
+   27  apt install apache2 libapache2-mpm-itk
+   28  a2enmod mpm_prefork
+   29  a2enmod remoteip
+   30  a2enmod rewrite
+   31  systemctl restart apache2
+   32  history
+   33  history >> histori.his
+   34  chmod 750 /etc/apache2
+   35  apache2ctl -t
+   36  service apache2 restart
+   37  service apache2 status
